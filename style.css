@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+  color: white;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 1.1em;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ff6f91;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ff3c6f;
+}
+
+.hidden {
+  display: none;
+}
+
+.te-amo {
+  font-size: 1.6em;
+  margin-top: 20px;
+  animation: piscar 2s infinite;
+}
+
+#play-audio {
+  margin-bottom: 20px;
+  background-color: #ffcccb;
+  color: #900;
+  font-weight: bold;
+}
+
+
+@keyframes piscar {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
